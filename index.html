@@ -31,10 +31,11 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-
+        <!-- Angularjs -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>        
     </head>
 
-    <body id="page-top">
+    <body id="page-top" ng-app="myApp" ng-controller="mainController">
 
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -76,7 +77,6 @@
                 <div class="header-content-inner">
                     <h1>Software Developer</h1>
                     <hr>
-                    <p>Using multiple technologies</p>
                     <p>CMS:  Open CMS – Wordpress - Drupal 6 & 7 (views, panels, cck, context, contact field,carousel,node reference, internationalization i18n, other modules)
                     </p>
                     <p>
@@ -100,7 +100,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">I'm a Web Developer from Panamá, who has been working in Panamá, Spain and now in the amazing City of London in Web Technologies.</h2>
+                        <h2 class="section-heading">I'm a Web Developer from Panamá, who has been working in Panamá, Spain and now in the amazing City of London Developing Web Technologies.</h2>
                         <hr class="light">
                         <p class="text-faded">This is my portfolio and tester space to contribute with the developer community</p>
                         <a href="#" class="btn btn-default btn-xl">Home</a>
@@ -120,32 +120,11 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
+                    <div class="col-lg-3 col-md-6 text-center" ng-repeat="skill in skills">
                         <div class="service-box">
-                            <i class="fa fa-4x fa-wordpress wow bounceIn text-primary"></i>
-                            <h3>Wordpress</h3>
-                            <p class="text-muted">Creating templates, plugins, content architecture and contents</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-drupal wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                            <h3>Drupal</h3>
-                            <p class="text-muted">Creating modules, templates, configuring existing modules (like Views, rules, etc), creating bulk content</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-html5 wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                            <h3>Html5</h3>
-                            <p class="text-muted">Creating Infographics, pages and applications</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-css3 wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                            <h3>css3</h3>
-                            <p class="text-muted">Customizing CMS templates, applications and infographics</p>
+                            <i class="{{ skill.icon }} wow bounceIn text-primary"></i>
+                            <h3>{{ skill.title }}</h3>
+                            <p class="text-muted">{{ skill.description }}</p>
                         </div>
                     </div>
                 </div>
@@ -277,6 +256,7 @@
                 </div>
             </div>
         </section>
+        <script src="js/custom.js"></script>        
 
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
@@ -291,6 +271,7 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="js/creative.js"></script>
+        <script src="angularjs/controllers/main.js"></script>           
 
     </body>
 
