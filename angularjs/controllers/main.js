@@ -2,9 +2,9 @@
 var app = angular.module("myApp",[]);
 
 app.controller("mainController", function ($scope, $http) {
-    $http.get("json/cms.json")
+    $http.get("json/frameworks.json")
             .success(function (response) {
-                $scope.cms = response;
+                $scope.frameworks = response;
             });   
     $http.get("json/languages.json")
             .success(function (response) {
@@ -17,7 +17,8 @@ app.controller("mainController", function ($scope, $http) {
     $http.get("json/platforms.json")
             .success(function (response) {
                 $scope.platforms = response;
-            });                   
+            }); 
+                      
 });
 
 

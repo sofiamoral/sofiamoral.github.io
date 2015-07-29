@@ -8,13 +8,13 @@
     {
         "id": 2,
         "url": "http://www.vectorsf.com",
-        "category": "Drupal / html5 / maintainance",
+        "category": "Drupal / html5 / maintenance",
         "name":"Vector Sofware (Spain)"
     },
     {
         "id": 3,
         "url": "http://diplomas.cervantes.es",
-        "category": "Drupal / html5 / SOAP / Webservices / maintainance",
+        "category": "Drupal / html5 / SOAP / Webservices / maintenance",
         "name":"Instituto Cervantes (Spain)"
     },
     {
@@ -38,7 +38,7 @@
     {
         "id": 7,
         "url": "http://www.murad.co.uk",
-        "category": "Drupal / html5 / maintainance",
+        "category": "Drupal / html5 / maintenance",
         "name":"Murad (UK)"
     },
     {

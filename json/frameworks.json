@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "icon": "fa fa-4x fa-wordpress",
+        "title": "Wordpress",
+        "description":"Creating templates, plugins, content architecture and contents"
+    },
+    {
+        "id": 2,
+        "icon": "fa fa-4x fa-drupal",
+        "title": "Drupal",
+        "description":"Creating modules, templates, configuring existing modules (like Views, rules, etc), creating bulk content"
+    },
+    {
+        "id": 3,
+        "icon": "fa fa-4x fa-code",
+        "title": "Bootstrap",
+        "description":"Creating php aplications with bootstrap as front-end framework"
+    },
+    {
+        "id": 4,
+        "icon": "fa fa-4x fa-code",
+        "title": "Laravel",
+        "description":"Maintenance and creating new functionality for internal applications"
+    },
+    {
+        "id": 5,
+        "icon": "fa fa-4x fa-code",
+        "title": "Symfony",
+        "description":"Maintenance and creating new functionality for internal payment application"
+    },
+    {
+        "id": 6,
+        "icon": "fa fa-4x fa-code",
+        "title": "Codeigniter",
+        "description":"Maintenance and creating new functionality for internal/external applications"
+    },
+    {
+        "id": 7,
+        "icon": "fa fa-4x fa-code",
+        "title": "Kendo UI",
+        "description":"Maintenance and creating new functionality for internal/external applications (grid, datepickers, ...)"
+    }
+]
