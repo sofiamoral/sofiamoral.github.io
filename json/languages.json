@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "fa fa-4x fa-code",
+        "title": "PHP (frameworks: Symfony, laravel, codeigniter), JS (Angularjs, jquery, bootstrap, kendoUI), asp/jsp, Java, manifest, Json...",
+        "description":"Developing/Maintenance"        
+    },
+    {
+        "id": 2,
+        "icon": "fa fa-4x fa-css3",
+        "title": "CSS3",
+        "description":"Customizing CMS templates, applications and infographics"
+    },
+    {
+        "id": 3,
+        "icon": "fa fa-4x fa-database",
+        "title": "MySQL, Oracle, SQL",
+        "description":"Queries, integration, migration, complex queries with cursors"
+    },
+    {
+        "id": 4,
+        "icon": "fa fa-4x fa-html5",
+        "title": "Html5",
+        "description":"Creating Infographics, pages and applications"
+    }
+]

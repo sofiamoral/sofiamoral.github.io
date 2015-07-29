@@ -57,8 +57,14 @@
                             <a class="page-scroll" href="#about">About</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#services">Skills</a>
+                            <a class="page-scroll" href="#cms">CMS</a>
+                        </li>                        
+                        <li>
+                            <a class="page-scroll" href="#languages">Languages</a>
                         </li>
+                        <li>
+                            <a class="page-scroll" href="#platforms">Platforms</a>
+                        </li>                        
                         <li>
                             <a class="page-scroll" href="#portfolio">Portfolio</a>
                         </li>
@@ -108,117 +114,82 @@
                 </div>
             </div>
         </section>
-
-        <section id="services">
+        <section id="cms">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Skills</h2>
+                        <h2 class="section-heading">CMS</h2>
                         <hr class="primary">
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center" ng-repeat="skill in skills">
+                    <div class="col-lg-6 col-md-6 text-center" ng-repeat="cm in cms">
                         <div class="service-box">
-                            <i class="{{ skill.icon }} wow bounceIn text-primary"></i>
-                            <h3>{{ skill.title }}</h3>
-                            <p class="text-muted">{{ skill.description }}</p>
+                            <i class="{{ cm.icon }} wow bounceIn text-primary"></i>
+                            <h3>{{ cm.title }}</h3>
+                            <p class="text-muted">{{ cm.description }}</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="languages">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Languages</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center" ng-repeat="language in languages">
+                        <div class="service-box">
+                            <i class="{{ language.icon }} wow bounceIn text-primary"></i>
+                            <h3>{{ language.title }}</h3>
+                            <p class="text-muted">{{ language.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="platforms">
+            <div class="container">
+                <div class="row no-gutter">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Platforms</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center" ng-repeat="platform in platforms">
+                        <div class="service-box">
+                            <i class="{{ platform.icon }} wow bounceIn text-primary"></i>
+                            <h3>{{ platform.title }}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
 
         <section class="no-padding" id="portfolio">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="http://www.loveantiques.com/library/a-z-classic-cocktail-world-map" target="_blank" class="portfolio-box">
-                            <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                    <div class="col-lg-4 col-sm-6" ng-repeat="project in projects">
+                        <a href="{{ project.url }}" target="_blank" class="portfolio-box">
+                            <img src="img/portfolio/{{ project.id }}.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Angularjs/Html5/css3
+                                        {{ project.category }}
                                     </div>
                                     <div class="project-name">
-                                        loveantiques.com (UK)
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="http://www.vectorsf.com" target="_blank" class="portfolio-box">
-                            <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Drupal / html5 / maintainance 
-                                    </div>
-                                    <div class="project-name">
-                                        Vector Sofware (Spain)
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="http://diplomas.cervantes.es" target="_blank" class="portfolio-box">
-                            <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Drupal / html5 / SOAP / Webservices / maintainance 
-                                    </div>
-                                    <div class="project-name">
-                                        Instituto Cervantes (Spain)
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="http://www.csspartners.co.uk/" target="_blank" class="portfolio-box">
-                            <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Wordpress / Html5 / css3
-                                    </div>
-                                    <div class="project-name">
-                                        CSS Partners (UK)
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="http://www.globomedia.es" target="_blank" class="portfolio-box">
-                            <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Drupal / Templates & Views / css3
-                                    </div>
-                                    <div class="project-name">
-                                        globomedia.es (Spain)
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="http://www.beachhutlife.com/" target="_blank" class="portfolio-box">
-                            <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Wordpress / plugins / theme / css3
-                                    </div>
-                                    <div class="project-name">
-                                        beachhutlife.com
+                                        {{ project.name }}
                                     </div>
                                 </div>
                             </div>

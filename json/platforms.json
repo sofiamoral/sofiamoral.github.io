@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "icon": "fa fa-4x fa-linux",
+        "title": "Linux"
+    },
+    {
+        "id": 2,
+        "icon": "fa fa-4x fa-windows",
+        "title": "Windows"
+    },
+    {
+        "id": 3,
+        "icon": "fa fa-4x fa-apple",
+        "title": "Mac"
+    },
+    {
+        "id": 4,
+        "icon": "fa fa-4x fa-tablet",
+        "title": "Tablet"
+    }
+]
