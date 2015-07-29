@@ -2,7 +2,7 @@
     {
         "id": 1,
         "url": "http://www.loveantiques.com/library/a-z-classic-cocktail-world-map",
-        "category": "Angularjs/Html5/css3",
+        "category": "Angularjs / Html5 / css3",
         "name":"loveantiques.com (UK)"
     },
     {
@@ -26,7 +26,7 @@
     {
         "id": 5,
         "url": "http://www.globomedia.es",
-        "category": "Drupal / Templates & Views / css3",
+        "category": "Front-end in Drupal / Templates & Views / css3",
         "name":"globomedia.es (Spain)"
     },
     {
@@ -38,13 +38,13 @@
     {
         "id": 7,
         "url": "http://www.murad.co.uk",
-        "category": "Drupal / html5 / maintenance",
+        "category": "Maintenance in Drupal / html5 ",
         "name":"Murad (UK)"
     },
     {
         "id": 8,
         "url": "http://parquesreunidos.com/",
-        "category": "Drupal / html5 / templates / Views",
+        "category": "Front-end in Drupal / html5 / templates / Views",
         "name":"Parques Reunidos (Spain)"
     },
     {
@@ -80,7 +80,7 @@
     {
         "id": 14,
         "url": "http://www.fjd.es",
-        "category": "Java / Html5 / css3 / jsp",
+        "category": "Maintenance Java / Html5 / css3 / jsp",
         "name":"Fundacion Jimenez Diaz (Spain)"
     },
     {
